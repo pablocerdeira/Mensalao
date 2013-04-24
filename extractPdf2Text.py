@@ -27,9 +27,9 @@ def pdf_to_text(data):
 
 
 print 'Opening PDF file'
-pdf = open("Docs/10QO_AP470.pdf","r")
+pdf = open("Docs/InteiroTeor_AP470.pdf","r")
 print 'Opening TXT file'
-txt = open("Docs/10QO_AP470.txt","w")
+txt = open("InteiroTeor_AP470.txt","w")
 print 'Converting PDF to txt'
 text = pdf_to_text(pdf.read())
 print 'Writing TXT file'
